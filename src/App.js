@@ -1,9 +1,12 @@
 import './App.css';
-import TodoWrapper from './Components/TodoWrapper'
+import TaskManager from './Components/TaskManager';
+
 function App() {
   return (
     <div className="App">
-      <TodoWrapper/>
+      
+      <TaskManager/>
+      
     </div>
   );
 }
